@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<header>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+        <span class="home-text1">Welcome to Ateneo Profs to Pick!</span>
+        <span class="home-text02">
+          <span>
+            ______________________________________________________________________________________________________
+          </span>
+          <br />
+          <br />
+          <br />
+          <span>
+            This website is a helpful resource for students seeking professor
+            reviews. We provide an
+          </span>
+          <br />
+          <span>
+            easy-to-use platform where you can find and read feedback from fellow
+            students. Whether
+          </span>
+          <br />
+          <span>
+            you want to learn about teaching styles, course difficulty, or overall
+            ratings, our site has you
+          </span>
+          <br />
+          <span>
+            covered. Join our community, share your experiences, and make informed
+            decisions when
+          </span>
+          <br />
+          <span>
+            choosing your professors. We&apos;re here to empower you in your
+            educational journey!
+          </span>
+        </span>
+      </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+  </header>
+
+
+<a href="/login" class="btn btn-primary">Login</a>
+<br /> <br />
+<a href="/sign-up" class="btn btn-primary">Sign-Up</a>
+{% endblock %}

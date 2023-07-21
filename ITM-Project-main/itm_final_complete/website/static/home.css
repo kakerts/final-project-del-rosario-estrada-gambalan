@@ -1,0 +1,51 @@
+body {
+    background-image: url('/static/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-textinput {
+  top: 472px;
+  left: 68px;
+  width: 363px;
+  height: 54px;
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.home-text {
+  top: 413px;
+  left: 67px;
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.home-text1 {
+  top: 109px;
+  left: 65px;
+  color: white;
+  position: absolute;
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont
+}
+.home-text02 {
+  top: 197px;
+  left: 70px;
+  color: white;
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont
+}
+.btn-primary {
+    position: relative;
+    left: 65px;
+    top: 350px;
+}
